@@ -1,0 +1,72 @@
+fancybox: true ## If you want to use fancybox please set the value to true.
+duoshuo: myoung  ## Your duoshuo_shortname, e.g. username
+disqus: ## Your disqus_shortname, e.g. username
+google_search: true ## Use Google search, true/false.
+baidu_search: ## Use Baidu search, true/false.
+swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+self_search: ## Use a jQuery-based local search engine, true/false.
+google_analytics: UA-68661235-3 ## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
+shareto: true ## If you want to use the share button please set the value to true.
+busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
+widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
+
+menu:
+  - page: home
+    directory: .
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive
+  - page: timeline
+    directory: timeline/
+    icon: fa-book
+  - page: album
+    directory: instagram/
+    icon: fa-picture-o
+  - page: music
+    directory: music/
+    icon: fa-music
+  - page: about
+    directory: about/
+    icon: fa-user
+  - page: rss
+    directory: atom.xml
+    icon: fa-rss
+
+widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+  - search
+  - category
+  - tag
+  - recent_posts
+  - recent_comments
+  - links
+
+links:
+  - title: 小新博客
+    url: http://www.lwxbk.com/
+  - title: 扒企业
+    url: http://www.baqiye.com/
+  - title: 升学咨询
+    url: http://www.shengxuezixun.com/
+
+timeline:
+  - num: 1
+    word: 2015.6-从wordpress转移到hexo
+  - num: 2
+    word: 2015.12-第三次搭建hexo
+  - num: 3
+    word: 2016.3-购买阿里云ECS服务器，静态博客搭建在服务器，方便发布
+  - num: 4
+    word: 2016.07-文章编辑出现问题（粗心加了空格问题，导致部署出错），更换主题为maupassant
+  - num: 5
+    word: 2016.08-Ending a life,New a life.
+
+# Static files
+js: js
+css: css
+
+# Theme version
+version: 0.0.1
