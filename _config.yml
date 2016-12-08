@@ -32,6 +32,9 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
+  - page: love
+    directory: love/
+    icon: fa-heart
   - page: rss
     directory: atom.xml
     icon: fa-rss
@@ -51,6 +54,11 @@ links:
     url: http://www.baqiye.com/
   - title: 升学咨询
     url: http://www.shengxuezixun.com/
+  - title: 笨蛋
+    url: http://www.bendan.vip/
+  - title: 入梦|今生
+    url: http://www.rumeng.gq
+
 
 timeline:
   - num: 1
