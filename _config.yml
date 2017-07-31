@@ -48,16 +48,12 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: 小新博客
-    url: http://www.lwxbk.com/
-  - title: 扒企业
-    url: http://www.baqiye.com/
+  - title: 比特币小白
+    url: https://www.btxiaobai.com/
   - title: 升学咨询
-    url: http://www.shengxuezixun.com/
-  - title: 影视白痴
-    url: http://video.idiot6.com
-  - title: 入梦|今生
-    url: http://www.rumeng.gq
+    url: https://www.shengxuezixun.com/
+  - title: Jerry Qu
+    url: https://imququ.com/
 
 
 timeline:
@@ -71,6 +67,8 @@ timeline:
     word: 2016.07-文章编辑出现问题（粗心加了空格问题，导致部署出错），更换主题为maupassant
   - num: 5
     word: 2016.08-Ending a life,New a life.
+  - num: 6
+    word: Where the road ahead, where should I go, how should life in the end?
 
 # Static files
 js: js
