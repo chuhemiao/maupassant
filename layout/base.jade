@@ -34,6 +34,8 @@ html(lang='#{config.language}')
     link(rel='apple-touch-icon-precomposed', href=url_for('apple-touch-icon.png'))
     if config.feed
       link(rel='alternate', type=feed_type, href=url_for(config.feed.path))
+    if is_post() && config.generator_amp
+      link(rel="amphtml", href='./amp/index.html')
 
   body: .body_container
     #header
